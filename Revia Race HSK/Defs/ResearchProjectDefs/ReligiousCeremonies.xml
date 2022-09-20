@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>ReviaRaceReligionBase</defName>
+    <label>雷维亚宗教仪式</label>
+    <description>了解向雷维亚诸神献祭的基本原理。</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>ReviaRaceResearchTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>

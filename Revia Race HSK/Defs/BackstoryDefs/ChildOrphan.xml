@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildOrphan</defName>
+    <title>雷维亚孤儿</title>
+    <titleShort>孤儿</titleShort>
+    <baseDescription>[PAWN_nameDef] 是一个大街上的顽童. [PAWN_possessive]的父母在雷维亚社会不断的血战远征中牺牲。后来 [PAWN_pronoun] 被刺客组织收养. [PAWN_pronoun]因此学会了很多关于如何舞刀弄枪的知识。</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaMarauder</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <linkedBackstory>ReviaRaceBackstoryAdultAssassin</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryAdultWarsmith</defName>
+    <title>雷维亚战争铁匠</title>
+    <titleShort>铁匠</titleShort>
+    <baseDescription>[PAWN_nameDef] 在雷维亚中算是数一数二的工匠大师. 坚硬的金属在[PAWN_pronoun]手中仿佛陶土一般易于塑性,接连不断的产出一件件令人难以置信的高品质装备.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+</Defs>

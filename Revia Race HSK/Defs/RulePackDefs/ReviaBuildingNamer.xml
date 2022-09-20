@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>ReviaRaceNamerBloodSigil</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>buildingName-&gt;altar</li>
+        <li>buildingName-&gt;sigil</li>
+        <li>buildingName-&gt;mark</li>
+        <li>buildingName-&gt;brand</li>
+        <li>buildingName-&gt;emblem</li>
+        <li>buildingName-&gt;symbol</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="SK_ResourceBase">
+    <defName>ReviaRaceBloodstone</defName>
+    <label>血石</label>
+    <description>雷维亚诸神赐予的圣物。据说能给信徒带来神圣的恩惠。</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(200, 50, 0)</color>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <thingCategories>
+      <li>ReviaCategoryArtifact</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+    <tradeability>None</tradeability>
+    <statBases>
+      <Mass>0.01</Mass>
+      <Bulk>0.01</Bulk>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>0.0</DeteriorationRate>
+      <Beauty>4</Beauty>
+    </statBases>
+    <tickerType>Never</tickerType>
+    <comps> 
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Make offering</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>ReviaRace.Comps.InvokeGreaterBlessing</compClass>
+      </li>
+    </comps> 
+  </ThingDef>
+  
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_PalestoneCharged</defName>
+    <label>血石充能 *10</label>
+    <description>将血神的力量灌注进血石中，使其成为特种弹药使用。</description>
+    <jobString>正在封装血石。</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ReviaRaceBloodstone</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Ammo_BloodstoneGrenade>10</Ammo_BloodstoneGrenade>
+    </products>
+    <recipeUsers>
+      <li>ReviaBloodSigil</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+  <!-- ==================== Category ========================== -->
+  <ThingCategoryDef>
+    <defName>AmmoBloodstoneGrenades</defName>
+    <label>充能血石</label>
+    <parent>AmmoAdvanced</parent>
+    <iconPath>UI/Icons/Ammo_ReviaRaceBloodstone/Ammo_ReviaRaceBloodstone</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_BloodstoneGrenade</defName>
+    <label>充能血石</label>
+    <ammoTypes>
+      <Ammo_BloodstoneGrenade>Bullet_BloodstoneGrenade</Ammo_BloodstoneGrenade>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BloodstoneBase" ParentName="AmmoBase" Abstract="True">
+    <description>完成充能的血石，内部充满了不稳定能量，只能当做弹药使用。</description>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_TableMachining</li>
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoBloodstoneGrenades</li>
+    </thingCategories>
+    <stackLimit>1000</stackLimit>
+    <cookOffSound>MortarBomb_Explode</cookOffSound>
+    <cookOffSpeed>0.2</cookOffSpeed>
+    <cookOffFlashScale>30</cookOffFlashScale>
+    <cookOffTailSound>ShellCookOff_Ambient</cookOffTailSound>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BloodstoneBase">
+    <defName>Ammo_BloodstoneGrenade</defName>
+    <label>充能血石</label>
+    <graphicData>
+      <texPath>UI/Icons/Ammo_ReviaRaceBloodstone</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.01</Mass>
+      <Bulk>0.01</Bulk>
+    </statBases>
+    <ammoClass>RocketHEAT</ammoClass>
+    <cookOffProjectile>Bullet_SPG9Grenade_HEAT</cookOffProjectile>
+  </ThingDef>
+    <!-- ================== Projectiles ================== -->
+    <!--<ThingDef Class="CombatExtended.AmmoDef" Name="BaseBloodstoneGrenade" ParentName="BaseRocketLauncher" Abstract="true">
+    <graphicData>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>65</speed>
+      <soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+      <alwaysFreeIntercept>false</alwaysFreeIntercept>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBloodstoneGrenade">
+    <defName>Bullet_BloodstoneGrenade</defName>
+    <label>充能血石</label>
+    <thingClass>SK.ProjectileCE_Bullet_RL</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Ammo_ReviaRaceBloodstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <secondaryDamage>
+        <li>
+          <def>EMP</def>
+          <amount>10</amount>
+        </li>
+      </secondaryDamage>
+      <armorPenetrationSharp>16</armorPenetrationSharp>
+      <armorPenetrationBlunt>32</armorPenetrationBlunt>
+      <empShieldBreakChance>0.2</empShieldBreakChance>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>10</damageAmountBase>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveRadius>1</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>-->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12GaugeBullet">
+    <defName>Bullet_BloodstoneGrenade</defName>
+    <label>充能血石</label>
+    <graphicData>
+      <texPath>Things/Projectile/Ammo_ReviaRaceBloodstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <secondaryDamage>
+        <li>
+          <def>EMP</def>
+          <amount>15</amount>
+        </li>
+      </secondaryDamage>
+      <armorPenetrationSharp>13</armorPenetrationSharp><!--锐穿-->
+      <armorPenetrationBlunt>32</armorPenetrationBlunt><!--钝穿-->
+      <empShieldBreakChance>0.2</empShieldBreakChance><!--emp瘫痪-->
+      <pelletCount>2</pelletCount><!--散弹片数-->
+      <spreadMult>10</spreadMult><!--散射角度-->
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>7</damageAmountBase><!--爆炸伤害-->
+        <explosiveDamageType>Bomb</explosiveDamageType><!--爆炸类型-->
+        <explosiveRadius>1</explosiveRadius><!--爆炸范围-->
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

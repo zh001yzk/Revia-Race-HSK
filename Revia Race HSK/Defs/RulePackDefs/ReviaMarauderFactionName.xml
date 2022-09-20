@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerFactionReviaMarauder</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;The [Gore] [groupendevil]</li>
+        <li>r_name-&gt;The [ColorBadass] [groupendevil]</li>
+        <li>r_name-&gt;The [ConceptBadass] [groupendevil]</li>
+        <li>groupendevil-&gt;Devourers</li>
+        <li>groupendevil-&gt;Purgers</li>
+        <li>groupendevil-&gt;Marauders</li>
+        <li>groupendevil-&gt;Zealots</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

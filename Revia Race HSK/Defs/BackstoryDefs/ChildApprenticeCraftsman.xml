@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildApprenticeCraftsman</defName>
+    <title>雷维亚工匠学徒</title>
+    <titleShort>学徒</titleShort>
+    <baseDescription>[PAWN_nameDef]在一个大型铸造厂当学徒,学习如何雕刻木头和锻造金属。[PAWN_possessive]的手艺受到了城镇卫兵和冒险者们的赞赏,他们经常带来零食和小礼品作为交换物，让[PAWN_possessive]替他们维修装备。[PAWN_possessive]对火焰的热爱也在不断增长...</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Firefighting</li>
+      <li>Caring</li>
+    </workDisables>
+    <linkedBackstory>ReviaRaceBackstoryAdultWarsmith</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

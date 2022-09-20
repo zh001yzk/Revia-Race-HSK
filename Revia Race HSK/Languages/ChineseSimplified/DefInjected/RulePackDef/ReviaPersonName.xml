@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NamerPersonRevia.rulePack.rulesStrings.0>name->[firstName] [tribeName]</NamerPersonRevia.rulePack.rulesStrings.0>
+  <NamerPersonRevia.rulePack.rulesStrings.1>tribeName->[animal]</NamerPersonRevia.rulePack.rulesStrings.1>
+  <NamerPersonRevia.rulePack.rulesStrings.2>tribeName->[animal]-[interactionLiving]</NamerPersonRevia.rulePack.rulesStrings.2>
+  <NamerPersonRevia.rulePack.rulesStrings.3>tribeName->[object]-[interactionNonLiving]</NamerPersonRevia.rulePack.rulesStrings.3>
+  <NamerPersonRevia.rulePack.rulesStrings.4>firstName->红色</NamerPersonRevia.rulePack.rulesStrings.4>
+  <NamerPersonRevia.rulePack.rulesStrings.5>firstName->暗红</NamerPersonRevia.rulePack.rulesStrings.5>
+  <NamerPersonRevia.rulePack.rulesStrings.6>firstName->深红</NamerPersonRevia.rulePack.rulesStrings.6>
+  <NamerPersonRevia.rulePack.rulesStrings.7>firstName->朱红</NamerPersonRevia.rulePack.rulesStrings.7>
+  <NamerPersonRevia.rulePack.rulesStrings.8>firstName->猩红</NamerPersonRevia.rulePack.rulesStrings.8>
+  <NamerPersonRevia.rulePack.rulesStrings.9>firstName->橘红</NamerPersonRevia.rulePack.rulesStrings.9>
+  <NamerPersonRevia.rulePack.rulesStrings.10>firstName->霞红</NamerPersonRevia.rulePack.rulesStrings.10>
+  <NamerPersonRevia.rulePack.rulesStrings.11>firstName->血红</NamerPersonRevia.rulePack.rulesStrings.11>
+  <NamerPersonRevia.rulePack.rulesStrings.12>firstName->黄色</NamerPersonRevia.rulePack.rulesStrings.12>
+  <NamerPersonRevia.rulePack.rulesStrings.13>firstName->Solstice</NamerPersonRevia.rulePack.rulesStrings.13>
+  <NamerPersonRevia.rulePack.rulesStrings.14>firstName->日食</NamerPersonRevia.rulePack.rulesStrings.14>
+  <NamerPersonRevia.rulePack.rulesStrings.15>firstName->绿色</NamerPersonRevia.rulePack.rulesStrings.15>
+  <NamerPersonRevia.rulePack.rulesStrings.16>firstName->草绿</NamerPersonRevia.rulePack.rulesStrings.16>
+  <NamerPersonRevia.rulePack.rulesStrings.17>firstName->翠绿</NamerPersonRevia.rulePack.rulesStrings.17>
+  <NamerPersonRevia.rulePack.rulesStrings.18>firstName->绿宝石</NamerPersonRevia.rulePack.rulesStrings.18>
+  <NamerPersonRevia.rulePack.rulesStrings.19>firstName->黑曜石</NamerPersonRevia.rulePack.rulesStrings.19>
+  <NamerPersonRevia.rulePack.rulesStrings.20>firstName->蓝色</NamerPersonRevia.rulePack.rulesStrings.20>
+  <NamerPersonRevia.rulePack.rulesStrings.21>firstName->海蓝</NamerPersonRevia.rulePack.rulesStrings.21>
+  <NamerPersonRevia.rulePack.rulesStrings.22>firstName->湖蓝</NamerPersonRevia.rulePack.rulesStrings.22>
+  <NamerPersonRevia.rulePack.rulesStrings.23>firstName->宝石蓝</NamerPersonRevia.rulePack.rulesStrings.23>
+  <NamerPersonRevia.rulePack.rulesStrings.24>animal->豹</NamerPersonRevia.rulePack.rulesStrings.24>
+  <NamerPersonRevia.rulePack.rulesStrings.25>animal->美洲豹</NamerPersonRevia.rulePack.rulesStrings.25>
+  <NamerPersonRevia.rulePack.rulesStrings.26>animal->蟒蛇</NamerPersonRevia.rulePack.rulesStrings.26>
+  <NamerPersonRevia.rulePack.rulesStrings.27>animal->蛇</NamerPersonRevia.rulePack.rulesStrings.27>
+  <NamerPersonRevia.rulePack.rulesStrings.28>animal->狐狸</NamerPersonRevia.rulePack.rulesStrings.28>
+  <NamerPersonRevia.rulePack.rulesStrings.29>animal->水蟒</NamerPersonRevia.rulePack.rulesStrings.29>
+  <NamerPersonRevia.rulePack.rulesStrings.30>animal->鹰</NamerPersonRevia.rulePack.rulesStrings.30>
+  <NamerPersonRevia.rulePack.rulesStrings.31>animal->虎</NamerPersonRevia.rulePack.rulesStrings.31>
+  <NamerPersonRevia.rulePack.rulesStrings.32>animal->狼</NamerPersonRevia.rulePack.rulesStrings.32>
+  <NamerPersonRevia.rulePack.rulesStrings.33>animal->草原狼</NamerPersonRevia.rulePack.rulesStrings.33>
+  <NamerPersonRevia.rulePack.rulesStrings.34>animal->獾</NamerPersonRevia.rulePack.rulesStrings.34>
+  <NamerPersonRevia.rulePack.rulesStrings.35>animal->短吻鳄</NamerPersonRevia.rulePack.rulesStrings.35>
+  <NamerPersonRevia.rulePack.rulesStrings.36>animal->鳄鱼</NamerPersonRevia.rulePack.rulesStrings.36>
+  <NamerPersonRevia.rulePack.rulesStrings.37>animal->水虎鱼</NamerPersonRevia.rulePack.rulesStrings.37>
+  <NamerPersonRevia.rulePack.rulesStrings.38>object->岩石</NamerPersonRevia.rulePack.rulesStrings.38>
+  <NamerPersonRevia.rulePack.rulesStrings.39>object->黑曜石</NamerPersonRevia.rulePack.rulesStrings.39>
+  <NamerPersonRevia.rulePack.rulesStrings.40>object->蓝宝石</NamerPersonRevia.rulePack.rulesStrings.40>
+  <NamerPersonRevia.rulePack.rulesStrings.41>object->翡翠</NamerPersonRevia.rulePack.rulesStrings.41>
+  <NamerPersonRevia.rulePack.rulesStrings.42>object->黄金</NamerPersonRevia.rulePack.rulesStrings.42>
+  <NamerPersonRevia.rulePack.rulesStrings.43>object->钢铁</NamerPersonRevia.rulePack.rulesStrings.43>
+  <NamerPersonRevia.rulePack.rulesStrings.44>object->钢</NamerPersonRevia.rulePack.rulesStrings.44>
+  <NamerPersonRevia.rulePack.rulesStrings.45>object->头骨</NamerPersonRevia.rulePack.rulesStrings.45>
+  <NamerPersonRevia.rulePack.rulesStrings.46>object->骨头</NamerPersonRevia.rulePack.rulesStrings.46>
+  <NamerPersonRevia.rulePack.rulesStrings.47>interactionLiving->驯兽师</NamerPersonRevia.rulePack.rulesStrings.47>
+  <NamerPersonRevia.rulePack.rulesStrings.48>interactionLiving->beater</NamerPersonRevia.rulePack.rulesStrings.48>
+  <NamerPersonRevia.rulePack.rulesStrings.49>interactionLiving->bearer</NamerPersonRevia.rulePack.rulesStrings.49>
+  <NamerPersonRevia.rulePack.rulesStrings.50>interactionLiving->毁灭者</NamerPersonRevia.rulePack.rulesStrings.50>
+  <NamerPersonRevia.rulePack.rulesStrings.51>interactionLiving->屠宰者</NamerPersonRevia.rulePack.rulesStrings.51>
+  <NamerPersonRevia.rulePack.rulesStrings.52>interactionLiving->掠夺者</NamerPersonRevia.rulePack.rulesStrings.52>
+  <NamerPersonRevia.rulePack.rulesStrings.53>interactionLiving->scourge</NamerPersonRevia.rulePack.rulesStrings.53>
+  <NamerPersonRevia.rulePack.rulesStrings.54>interactionNonLiving->breaker</NamerPersonRevia.rulePack.rulesStrings.54>
+  <NamerPersonRevia.rulePack.rulesStrings.55>interactionNonLiving->carver</NamerPersonRevia.rulePack.rulesStrings.55>
+  <NamerPersonRevia.rulePack.rulesStrings.56>interactionNonLiving->shatterer</NamerPersonRevia.rulePack.rulesStrings.56>
+  <NamerPersonRevia.rulePack.rulesStrings.57>interactionNonLiving->crusher</NamerPersonRevia.rulePack.rulesStrings.57>
+  <NamerPersonRevia.rulePack.rulesStrings.58>interactionNonLiving->smasher</NamerPersonRevia.rulePack.rulesStrings.58>
+  <NamerPersonRevia.rulePack.rulesStrings.59>interactionNonLiving->shaper</NamerPersonRevia.rulePack.rulesStrings.59>
+
+
+</LanguageData>

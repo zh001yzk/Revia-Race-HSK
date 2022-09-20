@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RoomRoleDef>
+    <defName>ReviaRaceSkarneChapel</defName>
+    <label>斯卡恩教堂</label>
+    <workerClass>ReviaRace.RoomRoleWorkers.SkarneChapel</workerClass>
+  </RoomRoleDef>
+</Defs>

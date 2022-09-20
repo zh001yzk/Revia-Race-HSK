@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>ReviaRaceTail</defName>
+    <label>雷维亚尾巴</label>
+    <description>一条或多条大而蓬松的狐狸尾巴。</description>
+    <hitPoints>35</hitPoints>
+    <frostbiteVulnerability>0.20</frostbiteVulnerability>
+    <skinCovered>false</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+</Defs>

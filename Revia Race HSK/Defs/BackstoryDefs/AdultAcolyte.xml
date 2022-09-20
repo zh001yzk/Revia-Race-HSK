@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryAdultAcolyte</defName>
+    <title>雷维亚 斯卡恩侍僧</title>
+    <titleShort>侍僧</titleShort>
+    <baseDescription>[PAWN_nameDef]是雷维亚血腥之神的侍僧，[PAWN_pronoun]经常献祭一些动物、人类，或者其他任何[PAWN_pronoun]可以找到的生物. 尽管[PAWN_pronoun]怀着十足的热情去传教布道，但他经常不受他人待见，也许是因为他们害怕自己成为下一个祭品</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+</Defs>

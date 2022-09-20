@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ReviaRaceCraftLesserBloodRune</defName>
+    <label>制作次级鲜血符文</label>
+    <description>制作一个次级鲜血符文</description>
+    <jobString>制作次级鲜血符文</jobString>
+    <workAmount>12800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Artistic</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <skillRequirements>
+      <Artistic>4</Artistic>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <ReviaLesserBloodRuneBlank>1</ReviaLesserBloodRuneBlank>
+    </products>
+    <recipeUsers>
+      <li>TableSculpting</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

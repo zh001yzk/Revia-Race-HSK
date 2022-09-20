@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ConceptDef>
+    <defName>ReviaBloodstoneSacrifice</defName>
+    <label>血石和祭品</label>
+    <priority>50</priority>
+    <helpText>血石是雷维亚人获得血神恩宠的象征。每当雷维亚以血神的名义献祭一具人类或类人生物的尸体时，就会产生一块血石。
+右键点击血石，可以献祭，也许血神会降下些许恩赐</helpText>
+    <needsOpportunity>true</needsOpportunity>
+  </ConceptDef>
+</Defs>

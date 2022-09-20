@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ReviaRaceSacrificeElephantTusk</defName>
+    <label>献祭象牙</label>
+    <description>献祭一根象牙来祭祀雷维亚万神殿的血腥之神</description>
+    <jobString>献祭象牙</jobString>
+    <workAmount>240</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElephantTusk</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <ReviaRacePalestone>16</ReviaRacePalestone>
+    </products>
+    <recipeUsers>
+      <li>ReviaSacrificeSpot</li>
+      <li>ReviaBloodSigil</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

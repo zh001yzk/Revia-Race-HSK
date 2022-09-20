@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildPatricianScion</defName>
+    <title>雷维亚贵族子嗣</title>
+    <titleShort>贵族子嗣</titleShort>
+    <baseDescription>[PAWN_nameDef] 是一位雷维亚高级女祭司的孩子. [PAWN_pronoun] 在科学和军事领域都受到了最好的教育.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <linkedBackstory>ReviaRaceBackstoryAdultDarkTemplar</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="AddictionBase">
+    <defName>ReviaRaceRedHazeAddiction</defName>
+    <label>血腥粉尘成瘾</label>
+    <description>一种诡异的、近乎疯狂的嗜血欲笼罩着这个人。持续供应血石的粉末似乎是控制这种欲望的唯一方法。然而，如果中断使用，这个人就会被狂暴的愤怒吞噬，攻击周围的任何人。</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>ReviaRaceRedHazeNeed</causesNeed>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>unmet</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>0.3</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

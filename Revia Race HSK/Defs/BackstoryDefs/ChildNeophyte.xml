@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildNeophyte</defName>
+    <title>雷维亚新教徒</title>
+    <titleShort>新教徒</titleShort>
+    <baseDescription>在雷维亚的社会中，少数幸运的孩子会被祭司选中，并得到良好的照顾，而且通常什么都不用操心。然而，他们的生活却充满了背诵祷文和诵经祈祷，以及研究神秘学相关事务。[PAWN_nameDef] 就是这样的一个孩子。虽然[PAWN_possessive]的身体素质不如常人，但是，[PAWN_possessive]的心灵的成长明显异于常人</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <linkedBackstory>ReviaRaceBackstoryAdultAcolyte</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

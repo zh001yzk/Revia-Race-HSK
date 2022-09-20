@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildExpunged</defName>
+    <title>雷维亚被放逐的孩子</title>
+    <titleShort>流放者</titleShort>
+    <baseDescription>在雷维亚社会，雷维亚祭司会检查新生儿的身体状况,那些被认为是先天虚弱的孩子，会被遗弃在恶劣的荒郊野岭，任其自生自灭。[PAWN_nameDef]就是这样的一个例子, 但他是幸运的。[PAWN_pronoun]被其他这样的流放者从缓慢的死亡中解救了出来。</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaMarauder</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <linkedBackstory>ReviaRaceBackstoryAdultReaver</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ReviaRaceSoulreapTier3</defName>
+    <label>灵魂收割等级 (3)</label>
+    <description>这表明了这个雷维亚族人已经夺走了多少人的生命。他们夺走的生命越多，他们就越强大。</description>
+    <isBad>false</isBad>
+    <defaultLabelColor>(0.8, 0.4, 0.4)</defaultLabelColor>
+    <causesNeed>ReviaRaceBloodthirstNeed</causesNeed>
+    <stages>
+      <li>
+        <statFactors>
+          <IncomingDamageFactor>0.95</IncomingDamageFactor>
+        </statFactors>
+        <statOffsets>
+          <Suppressability>-0.1</Suppressability>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

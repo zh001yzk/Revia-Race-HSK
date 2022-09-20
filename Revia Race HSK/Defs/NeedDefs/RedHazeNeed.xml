@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>ReviaRaceRedHazeNeed</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>猩红粉尘</label>
+    <description>一种诡异的、近乎疯狂的嗜血欲笼罩着这个人。血石的粉末似乎阻止了这种几乎无法控制的愤怒。然而，如果中断使用，这个人就会被狂暴的愤怒吞噬，攻击周围的任何人。</description>
+    <listPriority>44</listPriority>
+    <fallPerDay>0.240</fallPerDay>
+  </NeedDef>
+</Defs>

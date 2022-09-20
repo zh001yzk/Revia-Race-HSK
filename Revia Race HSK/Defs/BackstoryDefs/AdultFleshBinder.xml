@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryAdultFleshBinder</defName>
+    <title>雷维亚治疗者</title>
+    <titleShort>治疗者</titleShort>
+    <baseDescription>在雷维亚社会中几乎没有治疗者,但那些治疗者赢得了其他人的信任. [PAWN_nameDef] 在某个治疗师助手的手下当学徒,学习身体各个部位的功能，并看着它们被从祭品的身体里取出来。[PAWN_possessive]也许缺少医德,但[PAWN_pronoun]肯定不缺乏医术。</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaMarauder</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+</Defs>

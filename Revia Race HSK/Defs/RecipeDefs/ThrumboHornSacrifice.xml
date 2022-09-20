@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ReviaRaceSacrificeThrumboHorn</defName>
+    <label>献祭号角</label>
+    <description>向雷维亚的血腥之神献祭一个号角</description>
+    <jobString>祭祀诸神</jobString>
+    <workAmount>240</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboHorn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <ReviaRacePalestone>32</ReviaRacePalestone>
+    </products>
+    <recipeUsers>
+      <li>ReviaSacrificeSpot</li>
+      <li>ReviaBloodSigil</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

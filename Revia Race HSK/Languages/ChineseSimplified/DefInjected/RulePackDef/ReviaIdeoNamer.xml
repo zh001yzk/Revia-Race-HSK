@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.0>r_ideoName-&gt;[creed] of the [colour] [icon]</ReviaHighIdeoNamer.rulePack.rulesStrings.0>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.1>r_ideoAdjective-&gt;斯卡恩</ReviaHighIdeoNamer.rulePack.rulesStrings.1>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.2>r_memberName-&gt;斯卡恩追随者</ReviaHighIdeoNamer.rulePack.rulesStrings.2>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.3>r_memberName-&gt;斯卡恩追随者</ReviaHighIdeoNamer.rulePack.rulesStrings.3>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.4>hyphenPrefix-&gt;[globalHyphenPrefix]</ReviaHighIdeoNamer.rulePack.rulesStrings.4>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.5>globalHyphenPrefix-&gt;新生</ReviaHighIdeoNamer.rulePack.rulesStrings.5>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.6>globalHyphenPrefix-&gt;古代</ReviaHighIdeoNamer.rulePack.rulesStrings.6>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.7>creed-&gt;教义</ReviaHighIdeoNamer.rulePack.rulesStrings.7>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.8>creed-&gt;信条</ReviaHighIdeoNamer.rulePack.rulesStrings.8>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.9>creed-&gt;信徒</ReviaHighIdeoNamer.rulePack.rulesStrings.9>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.10>creed-&gt;方法</ReviaHighIdeoNamer.rulePack.rulesStrings.10>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.11>creed-&gt;方针</ReviaHighIdeoNamer.rulePack.rulesStrings.11>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.12>creed-&gt;门徒</ReviaHighIdeoNamer.rulePack.rulesStrings.12>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.13>creed-&gt;正统</ReviaHighIdeoNamer.rulePack.rulesStrings.13>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.14>creed-&gt;阶级制度</ReviaHighIdeoNamer.rulePack.rulesStrings.14>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.15>creed-&gt;盟约</ReviaHighIdeoNamer.rulePack.rulesStrings.15>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.16>colour-&gt;赤红</ReviaHighIdeoNamer.rulePack.rulesStrings.16>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.17>colour-&gt;朱红</ReviaHighIdeoNamer.rulePack.rulesStrings.17>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.18>colour-&gt;曜黑</ReviaHighIdeoNamer.rulePack.rulesStrings.18>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.19>colour-&gt;血红</ReviaHighIdeoNamer.rulePack.rulesStrings.19>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.20>colour-&gt;猩红</ReviaHighIdeoNamer.rulePack.rulesStrings.20>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.21>icon-&gt;王座</ReviaHighIdeoNamer.rulePack.rulesStrings.21>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.22>icon-&gt;火焰</ReviaHighIdeoNamer.rulePack.rulesStrings.22>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.23>icon-&gt;颅骨</ReviaHighIdeoNamer.rulePack.rulesStrings.23>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.24>icon-&gt;玫瑰</ReviaHighIdeoNamer.rulePack.rulesStrings.24>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.25>icon-&gt;荆棘</ReviaHighIdeoNamer.rulePack.rulesStrings.25>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.26>icon-&gt;碎片</ReviaHighIdeoNamer.rulePack.rulesStrings.26>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.27>icon-&gt;日</ReviaHighIdeoNamer.rulePack.rulesStrings.27>
+  <ReviaHighIdeoNamer.rulePack.rulesStrings.28>icon-&gt;月</ReviaHighIdeoNamer.rulePack.rulesStrings.28>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.0>r_ideoName-&gt;[creed] of [barbaricNoun]</ReviaRaiderIdeoNamer.rulePack.rulesStrings.0>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.1>r_ideoName-&gt;[creed] of [deity]</ReviaRaiderIdeoNamer.rulePack.rulesStrings.1>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.2>r_ideoAdjective-&gt;斯卡恩</ReviaRaiderIdeoNamer.rulePack.rulesStrings.2>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.3>r_memberName-&gt;斯卡恩追随者</ReviaRaiderIdeoNamer.rulePack.rulesStrings.3>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.4>r_memberName-&gt;斯卡恩追随者</ReviaRaiderIdeoNamer.rulePack.rulesStrings.4>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.5>hyphenPrefix-&gt;[globalHyphenPrefix]</ReviaRaiderIdeoNamer.rulePack.rulesStrings.5>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.6>globalHyphenPrefix-&gt;新生</ReviaRaiderIdeoNamer.rulePack.rulesStrings.6>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.7>globalHyphenPrefix-&gt;古代</ReviaRaiderIdeoNamer.rulePack.rulesStrings.7>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.8>globalHyphenPrefix-&gt;无</ReviaRaiderIdeoNamer.rulePack.rulesStrings.8>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.9>barbaricNoun-&gt;鲜血</ReviaRaiderIdeoNamer.rulePack.rulesStrings.9>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.10>barbaricNoun-&gt;血糊</ReviaRaiderIdeoNamer.rulePack.rulesStrings.10>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.11>barbaricNoun-&gt;毁灭</ReviaRaiderIdeoNamer.rulePack.rulesStrings.11>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.12>barbaricNoun-&gt;灭绝</ReviaRaiderIdeoNamer.rulePack.rulesStrings.12>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.13>barbaricNoun-&gt;破坏</ReviaRaiderIdeoNamer.rulePack.rulesStrings.13>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.14>barbaricNoun-&gt;启示录</ReviaRaiderIdeoNamer.rulePack.rulesStrings.14>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.15>barbaricNoun-&gt;流血</ReviaRaiderIdeoNamer.rulePack.rulesStrings.15>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.16>creed-&gt;方法</ReviaRaiderIdeoNamer.rulePack.rulesStrings.16>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.17>creed-&gt;轨迹</ReviaRaiderIdeoNamer.rulePack.rulesStrings.17>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.18>creed-&gt;狂信徒</ReviaRaiderIdeoNamer.rulePack.rulesStrings.18>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.19>deity-&gt;鲜血女王</ReviaRaiderIdeoNamer.rulePack.rulesStrings.19>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.20>deity-&gt;伟大的破坏者</ReviaRaiderIdeoNamer.rulePack.rulesStrings.20>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.21>deity-&gt;天灾</ReviaRaiderIdeoNamer.rulePack.rulesStrings.21>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.22>deity-&gt;终焉使者</ReviaRaiderIdeoNamer.rulePack.rulesStrings.22>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.23>deity-&gt;无尽渴求</ReviaRaiderIdeoNamer.rulePack.rulesStrings.23>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.24>deity-&gt;血腥之神</ReviaRaiderIdeoNamer.rulePack.rulesStrings.24>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.25>deity-&gt;世界吞噬者</ReviaRaiderIdeoNamer.rulePack.rulesStrings.25>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.26>deity-&gt;血月</ReviaRaiderIdeoNamer.rulePack.rulesStrings.26>
+  <ReviaRaiderIdeoNamer.rulePack.rulesStrings.27>deity-&gt;血腥使者</ReviaRaiderIdeoNamer.rulePack.rulesStrings.27>
+</LanguageData>

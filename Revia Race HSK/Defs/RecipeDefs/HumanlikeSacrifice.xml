@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <workerClass>ReviaRace.Workers.SacrificeWorker</workerClass>
+    <defName>ReviaRaceSacrificeCorpse</defName>
+    <label>献祭尸体</label>
+    <description>向雷维亚的血腥之神献祭一具人类或类人种族的尸体</description>
+    <jobString>献祭尸体</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
+    <autoStripCorpses>false</autoStripCorpses>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+        <li>CorpsesAnimal</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <products>
+      <ReviaRaceBloodstone>1</ReviaRaceBloodstone>
+    </products>
+    <recipeUsers>
+      <li>ReviaSacrificeSpot</li>
+      <li>ReviaBloodSigil</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

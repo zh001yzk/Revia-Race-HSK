@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryAdultDarkTemplar</defName>
+    <title>雷维亚黑暗圣殿骑士</title>
+    <titleShort>圣殿骑士</titleShort>
+    <baseDescription>[PAWN_nameDef]是信仰血腥诸神的教会的高层中的一员. [PAWN_pronoun]对[PAWN_possessive]武器的熟练程度如臂使指 ，[PAWN_pronoun]的魅力就如同 [PAWN_pronoun]的危险程度一样高.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>2</degree>
+        <chance>70</chance>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>1</degree>
+        <chance>80</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+</Defs>

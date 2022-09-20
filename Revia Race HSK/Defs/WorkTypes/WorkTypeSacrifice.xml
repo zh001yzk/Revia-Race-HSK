@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkTypeDef>
+    <defName>ReviaSacrifice</defName>
+    <labelShort>献祭</labelShort>
+    <pawnLabel>司仪</pawnLabel>
+    <gerundLabel>献祭</gerundLabel>
+    <description>献上祭品以祭祀众神</description>
+    <verb>献祭</verb>
+    <naturalPriority>102</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>Intellectual</li>
+    </workTags>
+  </WorkTypeDef>
+</Defs>

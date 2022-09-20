@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ReviaBaseRangedWeapon">
+    <defName>ReviaRepeatingCrossbow</defName>
+    <label>连射弩</label>
+    <description>用复杂的机械部件制成的可以连续射击的十字弩</description>
+    <thingCategories>
+      <li>CrossbarRanged</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
+    <graphicData>
+      <texPath>Things/Item/Weapons/RepeatingCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ReviaRaceIntermediateEquipment</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>WoodLogs</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <costList>
+      <ComponentMedieval>8</ComponentMedieval>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <weaponTags>
+      <li>ReviaRangedAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <SellPriceFactor>0.70</SellPriceFactor>
+      <WorkToMake>9000</WorkToMake>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.5</ShotSpread>
+      <SwayFactor>1.12</SwayFactor>
+      <Bulk>4.0</Bulk>
+      <Mass>2.55</Mass>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_MetallicBolt</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <circularError>1.5</circularError>
+        <range>24</range>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Crossbow_S_hold</soundCast>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_Styleable" />
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>3</magazineSize>
+        <reloadTime>1.30</reloadTime>
+        <ammoSet>AmmoSet_Bolt</ammoSet>
+        <throwMote>false</throwMote>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <noSnapshot>True</noSnapshot>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetrationBlunt>2.65</armorPenetrationBlunt>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <ThingDef ParentName="ReviaBaseRangedWeapon">
+    <defName>ReviaBloodCrossbow</defName>
+    <label>血赐弩</label>
+    <description>进行了特殊改装的十字弩，使用活化苍石作为弹药</description>
+    <thingCategories>
+      <li>CrossbarRanged</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
+    <graphicData>
+      <texPath>Things/Item/Weapons/ReviaBloodCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ReviaRaceIntermediateEquipment</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <stuffCategories>
+      <li>WoodLogs</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <costList>
+      <ReviaRepeatingCrossbow>1</ReviaRepeatingCrossbow>
+      <ReviaRaceBloodstone>10</ReviaRaceBloodstone>
+    </costList>
+    <weaponTags>
+      <li>ReviaRangedAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <SellPriceFactor>0.70</SellPriceFactor>
+      <WorkToMake>9000</WorkToMake>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.5</ShotSpread>
+      <SwayFactor>1.12</SwayFactor>
+      <Bulk>4.0</Bulk>
+      <Mass>2.55</Mass>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_MetallicBolt</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <circularError>1.5</circularError>
+        <range>20</range>
+        <ticksBetweenBurstShots>0.01</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <soundCast>Crossbow_S_hold</soundCast>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_Styleable" />
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>6</magazineSize>
+        <reloadTime>2.30</reloadTime>
+        <ammoSet>AmmoSet_PalestoneCharged</ammoSet>
+        <throwMote>false</throwMote>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <noSnapshot>True</noSnapshot>
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+      </li>
+    </comps>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetrationBlunt>2.65</armorPenetrationBlunt>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

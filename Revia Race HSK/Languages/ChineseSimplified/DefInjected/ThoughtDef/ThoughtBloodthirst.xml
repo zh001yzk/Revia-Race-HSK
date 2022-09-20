@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NeedBloodthirst.stages.0.label>嗜血</NeedBloodthirst.stages.0.label>
+  <NeedBloodthirst.stages.0.description>我需要把刀捅进什么东西的身体里，斯卡恩要求献祭！</NeedBloodthirst.stages.0.description>
+  <NeedBloodthirst.stages.1.label>难以遏制的的嗜血</NeedBloodthirst.stages.1.label>
+  <NeedBloodthirst.stages.1.description>距离上一次流血已经有一段日子了，众神渴望新鲜的食物。</NeedBloodthirst.stages.1.description>
+  <NeedBloodthirst.stages.2.label>永无休止的嗜血欲</NeedBloodthirst.stages.2.label>
+  <NeedBloodthirst.stages.2.description>这段无所事事的日子让我倍感煎熬</NeedBloodthirst.stages.2.description>
+  <NeedBloodthirst.stages.3.label>渴望战斗</NeedBloodthirst.stages.3.label>
+  <NeedBloodthirst.stages.3.description>我该去寻找我的下一个祭品了</NeedBloodthirst.stages.3.description>
+  <NeedBloodthirst.stages.4.label>嗜血满足</NeedBloodthirst.stages.4.label>
+  <NeedBloodthirst.stages.4.description>斯卡恩一定很满意我所供奉的新鲜祭品!</NeedBloodthirst.stages.4.description>
+
+
+</LanguageData>

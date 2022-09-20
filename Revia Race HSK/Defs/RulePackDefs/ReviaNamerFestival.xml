@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>ReviaNamerFestival</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName-&gt;[festivalName]</li>
+        <li>festivalName-&gt;[festival] of [reviaConcept]</li>
+        <li>festival-&gt;feast</li>
+        <li>festival-&gt;ritual</li>
+        <li>festival-&gt;celebration</li>
+        <li>festival-&gt;dance</li>
+        <li>reviaConcept-&gt;bloodshed</li>
+        <li>reviaConcept-&gt;death</li>
+        <li>reviaConcept-&gt;destruction</li>
+        <li>reviaConcept-&gt;renewal</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

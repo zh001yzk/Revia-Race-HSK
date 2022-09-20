@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildConscript</defName>
+    <title>雷维亚征募兵</title>
+    <titleShort>征募兵</titleShort>
+    <baseDescription>[PAWN_nameDef]在很小的时候就被征召入伍，成为雷维亚无情的战争机器的一部分</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <linkedBackstory>ReviaRaceBackstoryAdultShadowGuard</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

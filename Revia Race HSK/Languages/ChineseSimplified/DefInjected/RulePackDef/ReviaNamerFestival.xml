@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReviaNamerFestival.rulePack.rulesStrings.0>r_ritualName-&gt;[festivalName]</ReviaNamerFestival.rulePack.rulesStrings.0>
+  <ReviaNamerFestival.rulePack.rulesStrings.1>festivalName-&gt;[festival] of [reviaConcept]</ReviaNamerFestival.rulePack.rulesStrings.1>
+  <ReviaNamerFestival.rulePack.rulesStrings.2>festival-&gt;宴会</ReviaNamerFestival.rulePack.rulesStrings.2>
+  <ReviaNamerFestival.rulePack.rulesStrings.3>festival-&gt;仪式</ReviaNamerFestival.rulePack.rulesStrings.3>
+  <ReviaNamerFestival.rulePack.rulesStrings.4>festival-&gt;庆典</ReviaNamerFestival.rulePack.rulesStrings.4>
+  <ReviaNamerFestival.rulePack.rulesStrings.5>festival-&gt;舞蹈</ReviaNamerFestival.rulePack.rulesStrings.5>
+  <ReviaNamerFestival.rulePack.rulesStrings.6>reviaConcept-&gt;流血</ReviaNamerFestival.rulePack.rulesStrings.6>
+  <ReviaNamerFestival.rulePack.rulesStrings.7>reviaConcept-&gt;死亡</ReviaNamerFestival.rulePack.rulesStrings.7>
+  <ReviaNamerFestival.rulePack.rulesStrings.8>reviaConcept-&gt;毁灭</ReviaNamerFestival.rulePack.rulesStrings.8>
+  <ReviaNamerFestival.rulePack.rulesStrings.9>reviaConcept-&gt;复苏</ReviaNamerFestival.rulePack.rulesStrings.9>
+</LanguageData>

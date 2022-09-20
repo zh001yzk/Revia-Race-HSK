@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.0>memeAdjective-&gt;斯卡恩追随者</ReviaRaceSkarniteMeme.generalRules.rulesStrings.0>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.1>memeHyphenPrefix-&gt;斯卡恩追随者</ReviaRaceSkarniteMeme.generalRules.rulesStrings.1>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.2>memeConcept-&gt;渴求鲜血</ReviaRaceSkarniteMeme.generalRules.rulesStrings.2>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.3>memeConcept-&gt;杀戮</ReviaRaceSkarniteMeme.generalRules.rulesStrings.3>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.4>memeConcept-&gt;战争</ReviaRaceSkarniteMeme.generalRules.rulesStrings.4>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.5>memeConcept-&gt;死亡</ReviaRaceSkarniteMeme.generalRules.rulesStrings.5>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.6>memeLeaderNoun-&gt;执政官</ReviaRaceSkarniteMeme.generalRules.rulesStrings.6>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.7>memeLeaderNoun-&gt;执行者</ReviaRaceSkarniteMeme.generalRules.rulesStrings.7>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.8>memeLeaderNoun-&gt;狂信徒</ReviaRaceSkarniteMeme.generalRules.rulesStrings.8>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.9>memeLeaderNoun-&gt;嗜血女神</ReviaRaceSkarniteMeme.generalRules.rulesStrings.9>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.10>memeMoralist-&gt;侍祭</ReviaRaceSkarniteMeme.generalRules.rulesStrings.10>
+  <ReviaRaceSkarniteMeme.generalRules.rulesStrings.11>memeMoralist-&gt;传教士</ReviaRaceSkarniteMeme.generalRules.rulesStrings.11>
+  <ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_revia)-&gt;[deity0_name] 把她的女儿们从无尽的虚空中带到宇宙中。</ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.0>
+  <ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.1>episode(uses=1, tag=meme_revia)-&gt;[deity0_name] 啜饮着她酒杯中满盛的鲜血，洒落的鲜血将大地染成了红色。她微笑着让她的女儿们继续她的事业，撕碎前进道路上的一切，直到整个宇宙都沐浴在鲜血之中</ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.1>
+  <ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_revia)-&gt; [deity0_name] 的女儿们席卷了整个世界,将那些不配和他们呼吸相同空气的蝼蚁一一肃清。</ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.2>
+  <ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_revia)-&gt;无论她们走到那里，异教徒都阻挡着他们前进的步伐.异教徒们用剑，枪，炮弹,竭尽全力抵抗[deity0_name] 的女儿们.</ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.3>
+  <ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.4>victory(tag=meme_revia)-&gt;然而，血腥之神的祝福令他们勇往直前，依靠纯粹的意志和无法压抑的愤怒战胜了逆境</ReviaRaceSkarniteMeme.descriptionMaker.rules.rulesStrings.4>
+  <ReviaRaceSkarniteMeme.symbolPacks.0.adjective>Skarnic</ReviaRaceSkarniteMeme.symbolPacks.0.adjective>
+</LanguageData>

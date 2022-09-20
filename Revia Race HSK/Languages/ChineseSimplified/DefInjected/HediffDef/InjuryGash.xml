@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Gash.comps.0.labelTendedWell>包扎</Gash.comps.0.labelTendedWell>
+  <Gash.comps.0.labelTendedWellInner>缝合</Gash.comps.0.labelTendedWellInner>
+  <Gash.comps.0.labelSolidTendedWell>set</Gash.comps.0.labelSolidTendedWell>
+  <Gash.injuryProps.destroyedLabel>切断.</Gash.injuryProps.destroyedLabel>
+  <Gash.injuryProps.destroyedOutLabel>切断</Gash.injuryProps.destroyedOutLabel>
+</LanguageData>

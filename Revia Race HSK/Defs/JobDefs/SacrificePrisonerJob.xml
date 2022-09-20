@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>ReviaRaceSacrificingPrisoner</defName>
+    <driverClass>ReviaRace.JobDrivers.SacrificePrisonerJobDriver</driverClass>
+    <reportString>活祭囚犯</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>ReviaRaceSacrificedPrisonerWait</defName>
+    <driverClass>ReviaRace.JobDrivers.WaitPrisonerJobDriver</driverClass>
+    <reportString>等待活祭</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

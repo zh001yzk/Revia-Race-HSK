@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryAdultShadowGuard</defName>
+    <title>雷维亚暗影守卫</title>
+    <titleShort>守卫</titleShort>
+    <baseDescription>雷维亚的社会中有一条绝对的法则：强者就是法律。想要保护自己的财产不受侵犯，通常都得靠自己。然而，高层社会的精英们偶尔会有人认为亲自动手过于乏味，因此会雇佣他人充当守卫。[PAWN_nameDef]是一个暗影守卫，隶属于一个私人军事承包商，负责保卫雇主宅邸的安全。</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Caring</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+</Defs>

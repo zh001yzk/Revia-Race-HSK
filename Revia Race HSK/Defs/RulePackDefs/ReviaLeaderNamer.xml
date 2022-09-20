@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>ReviaRaiderNamerLeader</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]-[cultureLeaderPostAdj]</li>
+        <li>cultureLeaderAdjective-&gt;mighty</li>
+        <li>cultureLeaderAdjective-&gt;great</li>
+        <li>cultureLeaderNoun-&gt;skull</li>
+        <li>cultureLeaderNoun-&gt;bone</li>
+        <li>cultureLeaderNoun-&gt;marrow</li>
+        <li>cultureLeaderNoun-&gt;flesh</li>
+        <li>cultureLeaderNoun-&gt;soul</li>
+        <li>cultureLeaderPostAdj-&gt;renderer</li>
+        <li>cultureLeaderPostAdj-&gt;shatterer</li>
+        <li>cultureLeaderPostAdj-&gt;breaker</li>
+        <li>cultureLeaderPostAdj-&gt;devourer</li>
+        <li>cultureLeaderPostAdj-&gt;destroyer</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>ReviaHighNamerLeader</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle-&gt;[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+        <li>cultureLeaderAdjective-&gt;high</li>
+        <li>cultureLeaderAdjective-&gt;hallowed</li>
+        <li>cultureLeaderAdjective-&gt;most eminent</li>
+        <li>cultureLeaderAdjective-&gt;devoted</li>
+        <li>cultureLeaderAdjective-&gt;sublime</li>
+        <li>cultureLeaderNoun-&gt;hierophant</li>
+        <li>cultureLeaderNoun-&gt;priestess</li>
+        <li>cultureLeaderNoun-&gt;rose</li>
+        <li>cultureLeaderNoun-&gt;listener</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

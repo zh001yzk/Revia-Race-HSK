@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildSacrificial</defName>
+    <title>雷维亚祭品儿童</title>
+    <titleShort>祭品</titleShort>
+    <baseDescription>[PAWN_nameDef]生来就体质虚弱. [PAWN_pronoun] 原定要作为活祭品献给雷维亚的诸神，但是 [PAWN_pronoun] 设法逃离了 [PAWN_possessive] 牢房. 在荒野的生活锻炼了[PAWN_possessive]的生存技能。但是，由于当初自己差点像动物一样被人宰杀的恐惧任然笼罩心头，这使得[PAWN_possessive] 不愿意与其他人有所接触.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaMarauder</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <linkedBackstory>ReviaRaceBackstoryAdultWayfarer</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

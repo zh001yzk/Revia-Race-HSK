@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ReviaRaceBloodstoneToPalestone</defName>
+    <label>将血石转化为苍石</label>
+    <description>将血石转化为苍石</description>
+    <jobString>将血石转化为苍石</jobString>
+    <workAmount>100</workAmount>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ReviaRaceBloodstone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <ReviaRacePalestone>14</ReviaRacePalestone>
+    </products>
+    <recipeUsers>
+      <li>ReviaSacrificeSpot</li>
+      <li>ReviaBloodSigil</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="SK_ResourceBase">
+    <defName>ReviaBloodRune</defName>
+    <label>鲜血符文</label>
+    <description>斯卡恩的标志，精心雕刻在一个华丽的圆盘上。其中脉动着憎恶的灵魂</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(190, 20, 20)</color>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <thingCategories>
+      <li>ReviaCategoryArtifact</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Artifact</li>
+    </tradeTags>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <Mass>0.01</Mass>
+      <Bulk>0.01</Bulk>
+      <MarketValue>600</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>0.0</DeteriorationRate>
+      <Beauty>4</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Sanctify equipped weapon</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>ReviaRace.Comps.InvokeModerateSanctify</compClass>
+      </li>
+    </comps>
+    <tickerType>Never</tickerType>
+  </ThingDef>
+</Defs>

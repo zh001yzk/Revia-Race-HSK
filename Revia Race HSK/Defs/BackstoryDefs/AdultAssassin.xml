@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryAdultAssassin</defName>
+    <title>雷维亚刺客</title>
+    <titleShort>刺客</titleShort>
+    <baseDescription>[PAWN_nameDef]是一个能让剑锋所指之人永远保持沉默的活体武器。 [PAWN_pronoun]是致命的刀刃,从不在乎他到底刺杀的是谁. 只要知道自己又带走了一条鲜活的生命, [PAWN_pronoun]就满足了.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaMarauder</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nimble</defName>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+    </workDisables>
+  </AlienRace.BackstoryDef>
+</Defs>

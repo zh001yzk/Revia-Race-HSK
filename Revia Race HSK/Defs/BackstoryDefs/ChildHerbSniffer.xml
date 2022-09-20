@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ReviaRaceBackstoryChildHerbSniffer</defName>
+    <title>雷维亚嗅探者</title>
+    <titleShort>嗅探者</titleShort>
+    <baseDescription>[PAWN_nameDef]拥有非常灵敏的嗅觉. [PAWN_pronoun]经常用它那非凡的嗅觉来寻找草药用于制药, 偶尔也用它寻找一些小型猎物为晚餐增添风味.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ReviaRaceBackstory</li>
+      <li>ReviaRaceTemplar</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <linkedBackstory>ReviaRaceBackstoryAdultFleshBinder</linkedBackstory>
+  </AlienRace.BackstoryDef>
+</Defs>

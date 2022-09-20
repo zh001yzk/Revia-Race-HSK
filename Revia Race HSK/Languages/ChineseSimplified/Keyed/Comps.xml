@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReviaRaceSacrificePrisonerNone>没有囚犯可以献祭</ReviaRaceSacrificePrisonerNone>
+  <ReviaRaceSacrificePrisonerName>献祭 {0}</ReviaRaceSacrificePrisonerName>
+  <ReviaRaceSacrificeRejected>{0} 的供品已被接受，但并不足以满足血腥之神。血腥之神需要更多的鲜血。</ReviaRaceSacrificeRejected>
+  <ReviaRaceBloodStuffCountDemand>需要额外的 {0} {1}</ReviaRaceBloodStuffCountDemand>
+  <ReviaRaceBloodStuffCountConsumed>{0} {1}(s) 在 {2}'的献祭仪式中被消耗</ReviaRaceBloodStuffCountConsumed>
+  <ReviaRaceSacrificeSuccess>献祭是值得的 {0} 变得更加强大了。</ReviaRaceSacrificeSuccess>
+  <ReviaRaceOfferingStart>{0}向血腥之神供奉了一些{1}</ReviaRaceOfferingStart>
+  <ReviaRaceOfferingInvalidPawn>血腥之神拒绝了请求</ReviaRaceOfferingInvalidPawn>
+  <ReviaRaceOfferingMaxLevel>{0} 已经达到了{1} 的高度!</ReviaRaceOfferingMaxLevel>
+  <ReviaRaceModName>雷维亚种族设置</ReviaRaceModName>
+  <ReviaRaceSettingsSacrificeCostHeader>献祭选项</ReviaRaceSettingsSacrificeCostHeader>
+  <ReviaRaceSettingsSacrificeCostBase>每级基础血石成本 </ReviaRaceSettingsSacrificeCostBase>
+  <ReviaRaceSettingsSacrificeCostGrowthFactor>成本增长基数</ReviaRaceSettingsSacrificeCostGrowthFactor>
+  <ReviaRaceSettingsSacrificeCostGrowthStartTier>成本增长初始数</ReviaRaceSettingsSacrificeCostGrowthStartTier>
+  <ReviaRaceSettingsSacrificeCostGrowthMode>成本的增长模式</ReviaRaceSettingsSacrificeCostGrowthMode>
+  <ReviaRaceSettingsEnableRandomSoulReapTier>在生成个体时随机赋予灵魂收割等级</ReviaRaceSettingsEnableRandomSoulReapTier>
+  <ReviaRaceSettingsEnableStripOnSacrifice>献祭时脱光尸体</ReviaRaceSettingsEnableStripOnSacrifice>
+  <ReviaRaceSettingsEnableBloodthirstNeed>满足嗜血需求</ReviaRaceSettingsEnableBloodthirstNeed>
+  <ReviaRaceSettingsBloodthirstDaysToEmpty>嗜血归零所需天数</ReviaRaceSettingsBloodthirstDaysToEmpty>
+  <ReviaRaceSettingsSacrificeCostGreater>当前设置的血石成本: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}</ReviaRaceSettingsSacrificeCostGreater>
+  <ReviaRaceSettingsSacrificeCostLesser>当前设置的苍石成本: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}</ReviaRaceSettingsSacrificeCostLesser>
+  <ReviaRaceSettingsSoulReapSpawnFixed>生成人物的灵魂收割等级</ReviaRaceSettingsSoulReapSpawnFixed>
+  <ReviaRaceSettingsSoulReapSpawnAgeCurve>基于人物年龄随机设定灵魂收割等级</ReviaRaceSettingsSoulReapSpawnAgeCurve>
+  <ReviaRaceSettingsSoulReapSpawnRange>生成人物时可能的灵魂收割等级</ReviaRaceSettingsSoulReapSpawnRange>
+  <ReviaRaceSanctifyNonMeleeWeapon>只能附魔近战武器</ReviaRaceSanctifyNonMeleeWeapon>
+  <ReviaRaceSanctifyNonReviaNonSkarnite>在异教徒手中不起作用</ReviaRaceSanctifyNonReviaNonSkarnite>
+  <ReviaRaceSanctifyAlreadySanctified>这件武器被附上了嗜血的灵魂</ReviaRaceSanctifyAlreadySanctified>
+  <ReviaRaceSanctifyDescPart>一个嗜血的灵魂寄宿在这把武器上，他将以受害者的鲜血为食粮，反哺斯卡恩的信徒。</ReviaRaceSanctifyDescPart>
+  <Linear>线性增长</Linear>
+  <Quadratic>幂增长</Quadratic>
+  <Exponential>指数增长</Exponential>
+</LanguageData>

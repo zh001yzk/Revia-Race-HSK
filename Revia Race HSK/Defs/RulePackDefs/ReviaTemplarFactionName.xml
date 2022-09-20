@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerFactionReviaTemplar</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;The [ColorBadass] [darkendevil]</li>
+        <li>r_name-&gt;[darkendevil] of [godepithet]</li>
+        <li>r_name-&gt;[godepithet]'s [darkendevil]</li>
+        <li>darkendevil-&gt;Executioners</li>
+        <li>darkendevil-&gt;Enforcers</li>
+        <li>darkendevil-&gt;Justiciars</li>
+        <li>darkendevil-&gt;Inquisitors</li>
+        <li>darkendevil-&gt;Templars</li>
+        <li>darkendevil-&gt;Empire</li>
+        <li>darkendevil-&gt;Despotate</li>
+        <li>darkendevil-&gt;Hierarchy</li>
+        <li>godepithet-&gt;the Bloody Rose</li>
+        <li>godepithet-&gt;the Sallow Moon</li>
+        <li>godepithet-&gt;the Blood God</li>
+        <li>godepithet-&gt;Skarne</li>
+        <li>godepithet-&gt;the Allmother</li>
+        <li>godepithet-&gt;the Ever-Thirsting</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>
