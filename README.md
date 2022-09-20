@@ -6,3 +6,4 @@
 ![QQ截图20220920130956](https://user-images.githubusercontent.com/113961308/191172985-c76280cf-f2b7-4f84-ab28-f52fc111043e.png)
 <br/>
 两把武器的分类都是诅咒武器
+PS：忘了还修改了雷维亚的小型献祭点贴图
